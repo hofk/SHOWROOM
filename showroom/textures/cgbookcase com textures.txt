@@ -1,0 +1,17 @@
+
+https://cgbookcase.com/textures/
+........................................
+
+donmccurdy
+
+I’d suggest Substance Painter (which exports to glTF) and its various resources, or perhaps https://cgbookcase.com/textures/ 4. Use the “base color”, “normal”, “metallic”, and “roughness” textures from cgbookcase.
+
+-------------------------------------------------------------
+
+looeee
+
+
+https://freepbr.com
+
+has some nice textures too, that can be used with MeshStandardMaterial.
+-------------------------------------------------------------------------
