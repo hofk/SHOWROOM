@@ -14,3 +14,6 @@ The compact form of the data initially requires increased concentration during i
 
 By specifying less data, lighting, mirrors and 3D models are also integrated.
 With the definition of colors and the assignment of materials and multi-materials, the rooms can be designed individually.
+ 
+
+See also https://discourse.threejs.org/t/showrooms-easy-to-generate-from-data-of-a-construction-drawing-or-dimensional-sketch/19994
