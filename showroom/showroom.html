@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!-- @author hofk -->
+<head>
+	<meta charset="utf-8">
+	<title> SHOWROOM </title>
+	<style> 
+	
+	body { margin: 0; }
+	
+	.slider {
+		-webkit-appearance: none;
+		width: 100%;
+		height: 10px;
+		border-radius: 5px;
+		background: #dddddd;
+		outline: none;
+		opacity: 0.5;
+		-webkit-transition: .2s;
+		transition: opacity .2s;
+	}	
+	.slider:hover {
+		opacity: 1;
+	}
+	 
+	.slider::-webkit-slider-thumb {
+		-webkit-appearance: none;
+		appearance: none;
+		width: 32px;
+		height: 32px;
+		border: 0;
+		border-radius: 16px;
+		background: url('ccimg/faster32.png');
+		cursor: pointer;
+	}
+	
+	.slider::-moz-range-thumb {
+		width: 32px;
+		height: 32px;
+		border: 0;
+		border-radius: 16px;
+		background: url('ccimg/faster32.png');
+		cursor: pointer;
+	}
+	</style>
+</head>
+
+<body ondragover="drag_over( event )" ondrop="drop( event )" >
+
+<div style="position: absolute; top: 0px; left: 0px; text-align: left;">
+	SHOWROOM <br />	
+</div>
+
+<div id="navPane" draggable="true" ondragstart="drag_start( event )"> 
+
+</div>
+ 
+<div id="sliderContainer"> 
+	<input id="velocityRange" type="range" min="0" max="100" value="50" class="slider" >
+	<span id="showVelocity"></span>
+ 
+</div>
+
+</body>
+		 
+	<script src="js/three.min.136.js"></script>
+	<script src="js/Reflector.136.js"></script>
+	
+	<script src="js/GLTFLoader.136.js"></script>
+	
+	<script src="js/OBJLoader.136.js"></script> 
+	<script src="js/MTLLoader.136.js"></script>	
+	
+	<script src="showroomAreaControl.js"></script>
+	
+	<script src="initProject.js"></script>
+	<script src="materials.js"></script>
+	<script src="frames/frames.js"></script>
+	
+	<script src="showroomDesign.js"></script>
+	
+	<script src="showroomBuildt.js"></script>
+
+ 
+</html>
