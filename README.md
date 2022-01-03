@@ -1,5 +1,6 @@
 # SHOWROOM
- # Showrooms easy to generate from data of a construction drawing or dimensional sketch. 
+ # Showrooms easy to generate from data of a construction drawing or dimensional sketch - uses three.js 
+ 
 
 
 See also https://discourse.threejs.org/t/showrooms-easy-to-generate-from-data-of-a-construction-drawing-or-dimensional-sketch/19994
